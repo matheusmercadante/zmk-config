@@ -11,12 +11,12 @@
 
 / {
     macros {
-        hyper: hyper_key {
+        hyper: hyper_sticky {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <0>;
             tap-ms = <0>;
-            bindings = <&kp LS(LC(LA(LGUI)))>;
+            bindings = <&sk LS(LC(LA(LGUI)))>;
         };
     };
 
