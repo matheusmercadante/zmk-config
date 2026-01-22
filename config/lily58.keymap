@@ -66,12 +66,12 @@
 // |  `  |  ~  |  !  |  @   |  #   |  $   |                      |  %   |  ^   |  &   |  *   |  (   |   )   |
 // |  -  |  _  |  =  |  +   |  [   |  ]   |                      |  {   |  }   |  \   |  |   |  '   |   "   |
 // |  <  |  >  |  ;  |  :   |  /   |  ?   |                      |      |      |      |      |      |       |
-// | (trans)                                                                                                   |
+// |     |     |     |      |      |      |      |      |      |BT_CLR| BT0  | BT1  | BT2  | BT3  | BT4   |
             bindings = <
 &kp GRAVE &kp LS(GRAVE) &kp LS(N1)  &kp LS(N2)   &kp LS(N3)   &kp LS(N4)                 &kp LS(N5)   &kp LS(N6)   &kp LS(N7)   &kp LS(N8)   &kp LS(N9)  &kp LS(N0)
 &kp MINUS &kp LS(MINUS) &kp EQUAL   &kp LS(EQUAL)&kp LBKT     &kp RBKT                    &kp LS(LBKT) &kp LS(RBKT) &kp BSLH     &kp LS(BSLH) &kp SQT      &kp LS(SQT)
 &kp LS(COMMA) &kp LS(DOT) &kp SEMI  &kp LS(SEMI) &kp FSLH     &kp LS(FSLH)                &trans       &trans       &trans       &trans       &trans       &trans
-&trans    &trans &trans &trans  &trans  &trans   &trans   &trans    &trans      &trans    &trans    &trans   &trans    &trans
+&trans    &trans &trans &trans  &trans  &trans   &trans   &trans    &bt BT_CLR  &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4
                         &trans  &trans  &trans    &trans   &trans    &trans      &trans    &trans
             >;
 
